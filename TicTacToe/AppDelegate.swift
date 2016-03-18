@@ -9,10 +9,20 @@
 import UIKit
 
 @UIApplicationMain
-class AppDelegate: UIResponder, UIApplicationDelegate {
+class AppDelegate: UIResponder, UIApplicationDelegate, PNObjectEventListener {
 
     var window: UIWindow?
-
+    var receiveMessage: AnyObject?
+    var clientData : PubNub
+    var config : PNConfiguration
+    //let appdel = ViewController()
+    override init() {
+        config = PNConfiguration(publishKey: "pub-c-ec115e5c-7099-462c-97da-0c2aeccd8414", subscribeKey: "sub-c-5df0d67e-ec06-11e5-8346-0619f8945a4f")
+        clientData = PubNub.clientWithConfiguration(config)
+        clientData.subscribeToChannels(["TicTac_Channel"], withPresence: false)
+        super.init()
+        //clientData.addListener(self)
+    }
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
         // Override point for customization after application launch.
@@ -40,7 +50,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func applicationWillTerminate(application: UIApplication) {
         // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
     }
-
-
+    
 }
 

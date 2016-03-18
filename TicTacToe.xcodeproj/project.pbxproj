@@ -14,6 +14,11 @@
 		184340C51C9A9359007471E2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 184340C31C9A9359007471E2 /* LaunchScreen.storyboard */; };
 		184340D01C9A9359007471E2 /* TicTacToeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184340CF1C9A9359007471E2 /* TicTacToeTests.swift */; };
 		184340DB1C9A9359007471E2 /* TicTacToeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184340DA1C9A9359007471E2 /* TicTacToeUITests.swift */; };
+		184340EC1C9AB8F4007471E2 /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184340EB1C9AB8F4007471E2 /* Data.swift */; };
+		1846E9BF1C9BFC8900F11CD0 /* Wood.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1846E9BE1C9BFC8900F11CD0 /* Wood.jpg */; };
+		1846E9C21C9BFDAD00F11CD0 /* op.png in Resources */ = {isa = PBXBuildFile; fileRef = 1846E9C01C9BFDAD00F11CD0 /* op.png */; };
+		1846E9C31C9BFDAD00F11CD0 /* xp.png in Resources */ = {isa = PBXBuildFile; fileRef = 1846E9C11C9BFDAD00F11CD0 /* xp.png */; };
+		C82C0F867D08BF8E4E31E793 /* libPods-TicTacToe.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0EB8AE5B7F27C875B982DF1D /* libPods-TicTacToe.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +39,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0EB8AE5B7F27C875B982DF1D /* libPods-TicTacToe.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TicTacToe.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		184340B71C9A9359007471E2 /* TicTacToe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TicTacToe.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		184340BA1C9A9359007471E2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		184340BC1C9A9359007471E2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +53,13 @@
 		184340D61C9A9359007471E2 /* TicTacToeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TicTacToeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		184340DA1C9A9359007471E2 /* TicTacToeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicTacToeUITests.swift; sourceTree = "<group>"; };
 		184340DC1C9A9359007471E2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		184340E81C9A9629007471E2 /* TicTacToe-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TicTacToe-Bridging-Header.h"; sourceTree = "<group>"; };
+		184340EB1C9AB8F4007471E2 /* Data.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
+		1846E9BE1C9BFC8900F11CD0 /* Wood.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Wood.jpg; path = ../../../../Downloads/Wood.jpg; sourceTree = "<group>"; };
+		1846E9C01C9BFDAD00F11CD0 /* op.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = op.png; path = ../../../../Downloads/op.png; sourceTree = "<group>"; };
+		1846E9C11C9BFDAD00F11CD0 /* xp.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = xp.png; path = ../../../../Downloads/xp.png; sourceTree = "<group>"; };
+		9E7AC15ABE75C62EB4F6D327 /* Pods-TicTacToe.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TicTacToe.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TicTacToe/Pods-TicTacToe.debug.xcconfig"; sourceTree = "<group>"; };
+		CE398FBE966F53EB0385DE83 /* Pods-TicTacToe.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TicTacToe.release.xcconfig"; path = "Pods/Target Support Files/Pods-TicTacToe/Pods-TicTacToe.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +67,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C82C0F867D08BF8E4E31E793 /* libPods-TicTacToe.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +95,9 @@
 				184340CE1C9A9359007471E2 /* TicTacToeTests */,
 				184340D91C9A9359007471E2 /* TicTacToeUITests */,
 				184340B81C9A9359007471E2 /* Products */,
+				5DCC9FFA93BE5EC4C2F010E8 /* Pods */,
+				5CEA958E3E219D93ACCD4A9B /* Frameworks */,
+				184340E81C9A9629007471E2 /* TicTacToe-Bridging-Header.h */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,12 +114,16 @@
 		184340B91C9A9359007471E2 /* TicTacToe */ = {
 			isa = PBXGroup;
 			children = (
+				1846E9C01C9BFDAD00F11CD0 /* op.png */,
+				1846E9C11C9BFDAD00F11CD0 /* xp.png */,
+				1846E9BE1C9BFC8900F11CD0 /* Wood.jpg */,
 				184340BA1C9A9359007471E2 /* AppDelegate.swift */,
 				184340BC1C9A9359007471E2 /* ViewController.swift */,
 				184340BE1C9A9359007471E2 /* Main.storyboard */,
 				184340C11C9A9359007471E2 /* Assets.xcassets */,
 				184340C31C9A9359007471E2 /* LaunchScreen.storyboard */,
 				184340C61C9A9359007471E2 /* Info.plist */,
+				184340EB1C9AB8F4007471E2 /* Data.swift */,
 			);
 			path = TicTacToe;
 			sourceTree = "<group>";
@@ -125,6 +146,23 @@
 			path = TicTacToeUITests;
 			sourceTree = "<group>";
 		};
+		5CEA958E3E219D93ACCD4A9B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0EB8AE5B7F27C875B982DF1D /* libPods-TicTacToe.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5DCC9FFA93BE5EC4C2F010E8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9E7AC15ABE75C62EB4F6D327 /* Pods-TicTacToe.debug.xcconfig */,
+				CE398FBE966F53EB0385DE83 /* Pods-TicTacToe.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +170,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 184340DF1C9A9359007471E2 /* Build configuration list for PBXNativeTarget "TicTacToe" */;
 			buildPhases = (
+				A997402B43F5973C16EADA2D /* Check Pods Manifest.lock */,
 				184340B31C9A9359007471E2 /* Sources */,
 				184340B41C9A9359007471E2 /* Frameworks */,
 				184340B51C9A9359007471E2 /* Resources */,
+				562FF55A0C89421E6A1615B0 /* Embed Pods Frameworks */,
+				0671028668D90231B551F8EC /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -229,7 +270,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1846E9C21C9BFDAD00F11CD0 /* op.png in Resources */,
+				1846E9BF1C9BFC8900F11CD0 /* Wood.jpg in Resources */,
 				184340C51C9A9359007471E2 /* LaunchScreen.storyboard in Resources */,
+				1846E9C31C9BFDAD00F11CD0 /* xp.png in Resources */,
 				184340C21C9A9359007471E2 /* Assets.xcassets in Resources */,
 				184340C01C9A9359007471E2 /* Main.storyboard in Resources */,
 			);
@@ -251,12 +295,61 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0671028668D90231B551F8EC /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TicTacToe/Pods-TicTacToe-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		562FF55A0C89421E6A1615B0 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TicTacToe/Pods-TicTacToe-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A997402B43F5973C16EADA2D /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		184340B31C9A9359007471E2 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				184340BD1C9A9359007471E2 /* ViewController.swift in Sources */,
+				184340EC1C9AB8F4007471E2 /* Data.swift in Sources */,
 				184340BB1C9A9359007471E2 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -397,23 +490,30 @@
 		};
 		184340E01C9A9359007471E2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9E7AC15ABE75C62EB4F6D327 /* Pods-TicTacToe.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = TicTacToe/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Trainning.TicTacToe;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "TicTacToe-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
 		184340E11C9A9359007471E2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CE398FBE966F53EB0385DE83 /* Pods-TicTacToe.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = TicTacToe/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Trainning.TicTacToe;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "TicTacToe-Bridging-Header.h";
 			};
 			name = Release;
 		};
@@ -484,6 +584,7 @@
 				184340E11C9A9359007471E2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		184340E21C9A9359007471E2 /* Build configuration list for PBXNativeTarget "TicTacToeTests" */ = {
 			isa = XCConfigurationList;
@@ -492,6 +593,7 @@
 				184340E41C9A9359007471E2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		184340E51C9A9359007471E2 /* Build configuration list for PBXNativeTarget "TicTacToeUITests" */ = {
 			isa = XCConfigurationList;
@@ -500,6 +602,7 @@
 				184340E71C9A9359007471E2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
